@@ -7,6 +7,12 @@ products:
 description: "This sample demonstrates a Python web application calling a Microsoft Graph that is secured using Microsoft Entra ID."
 urlFragment: ms-identity-python-webapp
 ---
+
+> # Markus, read this:
+> - Check out [this guide](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-web-app-python-flask?tabs=windows#step-5-configure-the-sample-app) to configure this app correctly (I have linked it from step 5 because our IT took care of steps 1-4).
+> - Since we use Entra, I have modified the `.env.sample.entra-id` file with instructions on which values to enter in the `.env` file that you create.
+> - Once you are done with steps 5 and 6 and go to `https://localhost:5000` in your browser, it should make you sign in with your HOC account.
+
 # Integrating Microsoft Entra ID with a Python web application written in Flask
 
 This is a multi-purpose [Flask](https://flask.palletsprojects.com/en/3.0.x/) web app sample.
